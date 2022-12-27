@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  background-color: #eee;
+}
+
+.user {
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &-item {
+    padding: 15px;
+    background-color: var(--color-white);
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

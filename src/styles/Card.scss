@@ -1,0 +1,9 @@
+:root {
+  --color-card-bg: #fff;
+}
+
+.card {
+  background-color: var(--color-card-bg);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
